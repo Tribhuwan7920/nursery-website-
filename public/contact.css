@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contact_images_img{
+    height: 60vh;
+    width: 100%;
+    background-image: url("/contact_page.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0.4);
+}
+
+.contact_background{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url("/contact_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont_images{
+    position:absolute;
+    left: 20vw;
+    bottom: 30vh;
+}
+.cont_images img{
+    height: 40vh;
+    border-radius: 30px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+}
+.cont_content{
+    height: 50vh;
+    width: 80vh;
+    /* background-color: blueviolet; */
+    position: absolute;
+    left: 43vw;
+    top: 27vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.cont_content h1{
+    color: rgb(7, 7, 253);
+    text-align: end;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 36px;
+
+}
+.cont_content p{
+    color: white;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.cont_content button{
+    color: white;
+    background-color: blue;
+    height: 7vh;
+    width: 30vh;
+    border-radius: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.conta_form{
+    height: 80vh;
+    width: 100%;
+    background-image: url("/cf_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.conta_form form{
+    /* background-color: brown; */
+    height: 50vh;
+    width:50vh;
+}
+.cf_field{
+    height: 7vh;
+    width: 80%;
+    border-radius: 20px;
+    margin: 13px;
+    text-align: center;
+}
+.form_btn{
+    color: white;
+    background-color: blue;
+    font-size:large;
+}
+.main_imag{
+    position: absolute;
+    left: 60px;
+    bottom: 200px;
+    /* border-radius: 50%; */
+}
+.main_imag img{
+    border-radius: 50%;
+    height: 40vh;
+}

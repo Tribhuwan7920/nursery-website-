@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nursery website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/product.css">
+    <link rel="shortcut icon" href="/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    {{!-- this is navbar of this website --}}
+    <div class="main_header">
+        <header>
+            <nav>
+                <div class="header">
+                    <img src="./logo.jpg" alt="no images" class="nav_logo">
+                    <p class="nav_heading">plant wonders nursery</p>
+
+                </div>
+                <div class="nav_link">
+                    <a href="/">home</a>
+                    <a href="/about">about</a>
+                    <a href="#">services</a>
+                    <a href="/contact">contact</a>
+                </div>
+                <div class="nav_search">
+                    <input type="search" name="search" id="search" placeholder="search here">
+                    <button>search</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    {{!-- this is our home page of this website --}}
+    <div class="home_section">
+        <div class="home_img">
+
+        </div>
+        <div class="home_items">
+            <div class="home_sectors">
+                <div class="home_content">
+                    <h1 class="home_heading">plant wonders nursery</h1>
+                    <p class="home_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, illum est.
+                        Voluptates quasi a eligendi aliquid officia, sequi suscipit omnis accusantium qui soluta odit,
+                        in recusandae, ipsum voluptas nemo. Rerum repudiandae necessitatibus ratione ex incidunt nisi.
+                        Nesciunt, impedit sequi! Modi?</p>
+                    <button class="home_button">
+                        read more .....
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{!-- this is the product section of our website --}}
+    <div class="products">
+        <div class="pheading">
+            <h1>our products</h1>
+        </div>
+        <div class="pmain_carts">
+
+
+            <div class="pind_carts">
+                <img src="/f1.jpg" alt="no images">
+                <h1>lotus plant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit libero nostrum eaque soluta
+                    quaerat inventore consectetur totam! Doloremque, velit!</p>
+                <button>buy now</button>
+            </div>
+
+            <div class="pind_carts">
+                <img src="/f2.jpg" alt="no images">
+                <h1>whitelily plant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit libero nostrum eaque soluta
+                    quaerat inventore consectetur totam! Doloremque, velit!</p>
+                <button>buy now</button>
+            </div>
+
+            <div class="pind_carts">
+                <img src="/f3.jpg" alt="no images">
+                <h1>dalhai plant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit libero nostrum eaque soluta
+                    quaerat inventore consectetur totam! Doloremque, velit!</p>
+                <button>buy now</button>
+            </div>
+
+            <div class="pind_carts">
+                <img src="/f4.jpg" alt="no images">
+                <h1>calendula plant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odit libero nostrum eaque soluta
+                    quaerat inventore consectetur totam! Doloremque, velit!</p>
+                <button>buy now</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    {{!-- this is about us section for our website --}}
+    <section class="contact_section">
+        <div class="contact_content">
+            <h1 class="c_heading">contact place</h1>
+
+        </div>
+        <div class="contact_images">
+            <img src="/map.jpg" alt="no images" class="contact_img">
+        </div>
+
+    </section>
+
+
+    {{!-- this is a section for contact form --}}
+    <section class="contact_form">
+        <div class="contact_item">
+            <h1 class="c_f_heading">get contact us</h1>
+        </div>
+        <div class="con_form">
+            <div class="c_form">
+                <form action="/" method="post">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="enter your name" class="form_field">
+
+                    </label>
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="enter your email" class="form_field">
+                    </label>
+                    <textarea name="concern" id="concern" placeholder="enter your concern"
+                        class="form_textarea"></textarea>
+                    <button type="submit" class="contact_btn">submit</button>
+                </form>
+            </div>
+
+            <div class="contact_img_images">
+                <img src="/contact.jpg" alt="no images" class="c_i">
+            </div>
+        </div>
+    </section>
+
+
+    {{!-- this is our footer section of our website --}}
+    {{>footer}}
+
+</body>
+
+</html>

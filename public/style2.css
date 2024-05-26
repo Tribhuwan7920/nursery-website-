@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+.about_home_images{
+    height: 40vh;
+    width: 100%;
+    background-color: brown;
+}
+.about_home_images img{
+    height: 40vh;
+    width: 100%;
+}
+.main_carts{
+    /* height: 120vh; */
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ind_carts{
+    height: 30vh;
+    width: 70vw;
+    /* background-color: chartreuse; */
+    margin: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* this is our about images section of our website  */
+
+.about_img{
+    height: 25vh;
+    width: 25vh;
+    /* background-color: brown; */
+}
+.about_img img{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+}
+.about_desc{
+    height: 23vh;
+    width: 60%;
+    /* background-color: blueviolet; */
+    margin: 30px;
+    padding: 10px;
+}
+.about_desc h1{
+    color: rgb(78, 78, 252);
+    font-size: 25px;
+    font-family: "Poppins", sans-serif; 
+}
+.about_desc p{
+    color:rgb(48, 48, 48);
+    font-size: 14px;
+    margin: 18px 5px;
+}
+.about_desc button{
+    color: white;
+    background-color: blue;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20vh;
+}
+
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
